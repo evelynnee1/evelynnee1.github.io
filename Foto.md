@@ -7,3 +7,9 @@
 
 
 <img width="491" height="238" alt="s-l1600-removebg-preview" src="https://github.com/user-attachments/assets/abca36ee-a072-4c5a-9cf6-c8b3f39425c4" />
+<img width="640" height="360" alt="23a81f80-58aa-11ef-acc8-59114a850a5f jpg" src="https://github.com/user-attachments/assets/5de63573-b655-4f27-b7cf-9c81f307d2eb" />
+
+<img width="1080" height="608" alt="01000000-0aff-0242-6715-08db6e1cc991_w1080_h608_s" src="https://github.com/user-attachments/assets/14cfe502-5015-4377-b554-0597a97743e5" />
+
+
+<img width="946" height="591" alt="202012wrd_afghanistan_protest" src="https://github.com/user-attachments/assets/bde7dc67-2643-45c0-8462-5fd856c0ff38" />
