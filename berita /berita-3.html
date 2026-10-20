@@ -1,1 +1,109 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Beritake3</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+  <body bgcolor="#050505" text="#e5e5e5" link="#c80000" vlink="#c80000" alink="#ff0000">
+
+    <p>&nbsp;</p>
+    
+  <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="#050505" bordercolor="#333333">
+    <tr>
+        <td colspan="2" align="center" bgcolor="#0a0a0a">
+            <font color="white">
+                <p>&nbsp;</p>
+                <h1>Nana's Web</h1>
+                <p><em>ทุกสายตาจับจ้องมาที่ฉัน</em></p>
+                <p>&nbsp;</p>
+            </font>
+        </td>
+    </tr>
+    <tr>
+       <td colspan="2" bgcolor="#0a0a0a">
+                <a href="../index.html">Home Page</a> |
+                <a href="../tentang-saya.html">About Me</a> |
+                <a href="../sekolahku.html">My School</a> |
+                <a href="../syair-lagu.html">Song Lyrics</a>
+       </td>
+    </tr>
+    <tr>
+        <td width="75%">
+            <!-- Content utama -->
+
+            <h3><font color="#c80000">5 Tahun Rezim Taliban: Krisis Kebebasan & Hak Perempuan Afganistan</font></h3>
+            <p align="right"><small><em><font color="#888888">Selasa, 20 Oktober 2026</font></em></small></p>
+            
+            <p>Kondisi perempuan di Afganistan saat ini terus menghadapi tekanan berat akibat kebijakan pembatasan yang diterapkan oleh rezim Taliban, yang telah berkuasa selama lima tahun sejak Agustus 2021.</p>
+            
+            <p align="center">
+              <img name="gambarSlider" src="https://via.placeholder.com/600x350/222222/cccccc?text=Foto+1+Afganistan" width="100%" border="1" alt="Ilustrasi Afganistan">
+              <br>
+              <small><font color="#888888" id="teksCaption">Ilustrasi 1: Kondisi pendidikan di Afganistan.</font></small>
+              <br><br>
+              <input type="button" value="&laquo; Sebelumnya" onclick="geserFoto(-1)">
+              <input type="button" value="Selanjutnya &raquo;" onclick="geserFoto(1)">
+            </p>
+
+            <script>
+                var indexSekarang = 0;
+   
+                var daftarFoto = [
+                    "https://github.com/user-attachments/assets/14cfe502-5015-4377-b554-0597a97743e5",
+                    "https://github.com/user-attachments/assets/5de63573-b655-4f27-b7cf-9c81f307d2eb",
+                    "https://github.com/user-attachments/assets/bde7dc67-2643-45c0-8462-5fd856c0ff38"
+                ];
+               
+                var daftarCaption = [
+                    "Ilustrasi 1: Kondisi pendidikan di Afganistan.",
+                    "Ilustrasi 2: Pembatasan ruang publik bagi perempuan.",
+                    "Ilustrasi 3: Perjuangan dan perlawanan perempuan Afganistan."
+                ];
+
+                function geserFoto(arah) {
+                    indexSekarang = indexSekarang + arah;
+                    if (indexSekarang >= daftarFoto.length) {
+                        indexSekarang = 0; 
+                    }
+                    if (indexSekarang < 0) {
+                        indexSekarang = daftarFoto.length - 1; 
+                    }
+                    document.gambarSlider.src = daftarFoto[indexSekarang];
+                    document.getElementById('teksCaption').innerHTML = daftarCaption[indexSekarang];
+                }
+            </script>
+
+            <p>Berikut adalah ringkasan situasi terbaru mengenai hak dan kondisi wanita di Afganistan:</p>
+            <ul>
+                <li><b>Larangan Pendidikan:</b> Anak perempuan dan remaja dilarang mengenyam pendidikan di atas kelas 6 (setingkat SD) serta dilarang masuk universitas, memaksa banyak dari mereka belajar lewat jalur alternatif seperti sekolah rahasia atau secara daring.</li>
+                <li><b>Pembatasan Pekerjaan & Ruang Publik:</b> Sebagian besar perempuan dilarang bekerja di sektor pemerintahan, organisasi internasional (LSM), salon kecantikan, dan ruang publik lainnya. Akibatnya, kesenjangan gender di angkatan kerja sangat lebar dengan hanya sekitar 7% perempuan yang bekerja.</li>
+                <li><b>Krisis Kesehatan Mental:</b> Berdasarkan data dari PBB dan laporan lapangan, sekitar 68% hingga 70% wanita Afganistan menggambarkan kondisi kesehatan mental mereka dalam keadaan buruk atau sangat buruk akibat isolasi di rumah dan hilangnya kebebasan.</li>
+                <li><b>Peningkatan Femisida dan Kekerasan:</b> Pembatasan total serta hilangnya mekanisme perlindungan hukum membuat kasus kekerasan terhadap perempuan dan angka femisida (pembunuhan berbasis gender) di Afganistan mengalami peningkatan.</li>
+                <li><b>Perjuangan dan Perlawanan:</b> Meskipun di bawah ancaman penangkapan dan kekerasan, banyak perempuan Afganistan terus melakukan perlawanan secara senyap, baik melalui gerakan bawah tanah, jurnalisme, maupun bertahan hidup dengan bekerja di sektor informal seperti penenun karpet.</li>
+            </ul>
+
+            <!-- Akhir dari content utama -->
+            </td>
+            
+            <td width="25%" valign="top" bgcolor="#0a0a0a">
+                <p><font color="#c80000">Tautan eksternal</font></p>
+                <ol>
+                    <li><a href="https://www.nana.or.id">Nana's web</a></li>
+                    <li><a href="https://www.github.com">Github</a></li>
+                    <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+                    <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+         
+            <td colspan="2" align="right" bgcolor="black">
+                <font color="#888888"><small>&copy; Copyright Najla Qaila N.A, 2026.</small></font>
+            </td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</body>
+</html>
